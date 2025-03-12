@@ -1,0 +1,40 @@
+:root body {
+  --base-text-color: #242424;
+  --base-bg: #ffffff;
+  --base-bg-darken-5: #f2f2f2;
+  --base-accent: #0f6cbd;
+  --base-text-color-alpha-7: rgba(36, 36, 36, 0.7);
+  --footer-border-color: rgba(224, 224, 224, 1);
+  --plus-icon-color: #242424;
+  --devextreme-logo-color: #596C7D;
+  --vue-logo-text-color: #35495E;
+  --shadow-color-first: rgba(0, 0, 0, 0.06);
+  --shadow-color-second: rgba(0, 0, 0, 0.12);
+}
+:root .dx-swatch-additional {
+  --base-text-color: #242424;
+  --base-bg: #ffffff;
+  --base-bg-darken-5: #f2f2f2;
+  --base-accent: #0f6cbd;
+  --base-text-color-alpha-7: rgba(36, 36, 36, 0.7);
+}
+:root .dx-swatch-dark {
+  --base-text-color: #ffffff;
+  --base-bg: #292929;
+  --base-bg-darken-5: #1c1c1c;
+  --base-accent: #479ef5;
+  --base-text-color-alpha-7: rgba(255, 255, 255, 0.7);
+  --plus-icon-color: #fff;
+  --devextreme-logo-color: #fff;
+  --vue-logo-text-color: #fff;
+  --shadow-color-first: rgba(0, 0, 0, 0.12);
+  --shadow-color-second: rgba(0, 0, 0, 0.24);
+  --footer-border-color: rgba(97, 97, 97, 1);
+}
+:root .dx-swatch-additional-dark {
+  --base-text-color: #ffffff;
+  --base-bg: #292929;
+  --base-bg-darken-5: #1c1c1c;
+  --base-accent: #479ef5;
+  --base-text-color-alpha-7: rgba(255, 255, 255, 0.7);
+}/*# sourceMappingURL=variables.css.map */

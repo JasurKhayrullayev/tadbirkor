@@ -1,0 +1,112 @@
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  height: 100%;
+}
+
+.dx-viewport .dx-popup-wrapper {
+  z-index: 1510 !important;
+}
+.dx-viewport #root {
+  height: 100%;
+}
+.dx-viewport * {
+  box-sizing: border-box;
+}
+.dx-viewport .app {
+  background-color: var(--base-bg-darken-5);
+  display: flex;
+  height: 100%;
+  width: 100%;
+  min-width: 320px;
+}
+.dx-viewport .content {
+  line-height: 1.5;
+  flex-grow: 1;
+  padding: 20px 40px;
+}
+.dx-viewport .content h2 {
+  font-size: 32px;
+  margin: 0;
+  line-height: 40px;
+}
+.dx-viewport .screen-x-small :not(.dx-card).content {
+  padding: 20px;
+}
+.dx-viewport .container {
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+}
+.dx-viewport .layout-body {
+  flex: 1;
+  min-height: 0;
+}
+.dx-viewport .side-nav-outer-toolbar .dx-drawer {
+  height: calc(100% - 56px);
+}
+.dx-viewport .content-block {
+  margin-top: 20px;
+}
+.dx-viewport .responsive-paddings {
+  padding: 20px;
+}
+.screen-large .dx-viewport .responsive-paddings {
+  padding: 40px;
+}
+.dx-viewport .dx-card.wide-card {
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 0;
+  border-right: 0;
+  border-left: 0;
+}
+.dx-viewport .with-footer > .dx-scrollable-wrapper > .dx-scrollable-container > .dx-scrollable-content {
+  height: 100%;
+}
+.dx-viewport .with-footer > .dx-scrollable-wrapper > .dx-scrollable-container > .dx-scrollable-content > .dx-scrollview-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.dx-theme-fluent .dx-drawer-wrapper .dx-drawer-panel-content,
+.dx-theme-fluent .dx-drawer-wrapper .dx-overlay-content {
+  box-shadow: 0 4px 4px 0 var(--shadow-color-first), 0 1px 2px 0 var(--shadow-color-second);
+}
+
+header {
+  background-color: var(--base-bg);
+}
+
+.header-component {
+  flex: 0 0 auto;
+  z-index: 1;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.dx-toolbar.header-toolbar .dx-toolbar-items-container .dx-toolbar-after {
+  padding: 0 40px;
+}
+.screen-x-small .dx-toolbar.header-toolbar .dx-toolbar-items-container .dx-toolbar-after {
+  padding: 0 20px;
+}
+
+.dx-toolbar .dx-toolbar-item.dx-toolbar-button.menu-button {
+  width: 60px;
+  text-align: center;
+  padding: 0;
+}
+
+.header-title .dx-item-content {
+  padding: 0;
+  margin: 0;
+}
+
+.dx-theme-generic .dx-toolbar {
+  padding: 10px 0;
+}
+.dx-theme-generic .user-button > .dx-button-content {
+  padding: 3px;
+}/*# sourceMappingURL=Header.css.map */

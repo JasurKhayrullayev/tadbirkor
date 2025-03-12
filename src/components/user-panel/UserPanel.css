@@ -1,0 +1,41 @@
+.app .header-toolbar .user-panel .user-button.dx-dropdownbutton img.dx-icon {
+  height: 100%;
+  width: auto;
+}
+.dx-theme-generic .app .header-toolbar .user-panel .user-button.dx-dropdownbutton img.dx-icon {
+  max-height: 32px;
+}
+
+.user-panel {
+  display: flex;
+  flex-direction: column;
+}
+.user-panel .user-button.dx-dropdownbutton {
+  margin-left: 5px;
+}
+.user-panel .user-button.dx-dropdownbutton img.dx-icon {
+  border-radius: 50%;
+  margin: 0;
+  width: auto;
+  aspect-ratio: 1/1;
+  box-sizing: border-box;
+  border: 1px solid var(--dx-color-border);
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  background: rgb(255, 255, 255);
+  background-clip: padding-box;
+}
+.user-panel .user-button.dx-dropdownbutton .dx-buttongroup {
+  vertical-align: middle;
+}
+.user-panel .user-button.dx-dropdownbutton .dx-buttongroup .dx-button.dx-button-has-icon:not(.dx-button-has-text) .dx-button-content {
+  padding: 0;
+}
+.user-panel .user-button.dx-dropdownbutton .dx-buttongroup .dx-button.dx-button-has-icon:not(.dx-button-has-text).dx-state-hover, .user-panel .user-button.dx-dropdownbutton .dx-buttongroup .dx-button.dx-button-has-icon:not(.dx-button-has-text).dx-state-focused {
+  background-color: transparent;
+}
+.user-panel .user-button.dx-dropdownbutton .dx-buttongroup .dx-button.dx-button-has-icon:not(.dx-button-has-text).dx-state-hover img.dx-icon, .user-panel .user-button.dx-dropdownbutton .dx-buttongroup .dx-button.dx-button-has-icon:not(.dx-button-has-text).dx-state-focused img.dx-icon {
+  border-color: var(--dx-color-primary);
+}/*# sourceMappingURL=UserPanel.css.map */
